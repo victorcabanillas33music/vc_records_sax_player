@@ -134,11 +134,10 @@
         <!-- RIGHT ACTION BUTTONS -->
         <div class="flex items-center space-x-3">
             <!-- Panic Fade/Stop Button -->
-            <button onclick="//triggerPanic()" class="bg-red-600/90 hover:bg-red-600 text-white font-bold px-3 py-1.5 rounded-lg border border-red-400/40 shadow-lg shadow-red-950/50 flex items-center space-x-1.5 transition active:scale-95 neon-border-red">
-                <i class="fa-solid fa-triangle-exclamation animate-pulse"></i>
-                <span>PÁNICO</span>
-            </button>
-
+            <button onclick="togglePanicMenu()" class="bg-red-600/90 hover:bg-red-500 text-white font-bold px-3 py-1.5 rounded-lg border border-red-400/40 shadow-lg shadow-red-950/30 flex items-center space-x-1.5 transition">
+  <i class="fa-solid fa-triangle-exclamation animate-pulse"></i>
+  <span>PÁNICO</span>
+</button>
             <!-- Fullscreen / Layout switch -->
             <button onclick="toggleFullScreen()" class="w-8 h-8 rounded-lg bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/60 flex items-center justify-center text-zinc-400 hover:text-white transition">
                 <i class="fa-solid fa-expand"></i>
